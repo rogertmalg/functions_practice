@@ -27,3 +27,7 @@ def add_string_as_number(a, b):
 def number_to_full_month_name(month):
     months =  ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     return months[month -1]
+
+def number_to_short_month_name(month):
+    short_month = number_to_full_month_name(month)
+    return(short_month[0:3])
