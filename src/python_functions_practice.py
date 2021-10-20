@@ -35,6 +35,8 @@ def cube_volume(length):
 
 def reverse_string(word):
     return word[::-1]
+    # another option
+    # return "".join(reversed(word))
 
 def cel_fah(f):
     return int((f - 32) / 1.8)
