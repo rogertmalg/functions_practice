@@ -12,4 +12,11 @@ def multiply(num1, num2):
 
 def divide(num1, num2):
     return num1 / num2
-    
+
+def length_of_string(test_string):
+    test_string = "aaaaaaaaaaaaaaaaaaaaa" 
+    return len(test_string)
+#  Unsure why line 30 in test is there 
+
+def join_string(string_1, string_2):
+    return string_1 + string_2
